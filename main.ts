@@ -13,7 +13,7 @@ item = 60
 tm = TM1637.create(
 DigitalPin.P1,
 DigitalPin.P2,
-randint(item, 7),
+7,
 4
 )
 basic.forever(function () {
